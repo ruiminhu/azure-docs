@@ -27,7 +27,7 @@ For information about the pricing and capacities of individual SignalR Service, 
 
 1. In your browser, open the [Azure portal](https://portal.azure.com).
 
-2. In your SignalR Service page, from the left menu, select **Scale**.
+2. In your SignalR Service page, from the left menu, select **Scale**. ()
    
 3. Choose your pricing tier, and then click **Select**. Set the unit count for **Standard** Tier.
    
@@ -38,6 +38,7 @@ For information about the pricing and capacities of individual SignalR Service, 
 ## Scale using Azure CLI
 
 This script creates a new SignalR Service resource of **Free** Tier and a new resource group, and scales it up to **Standard** Tier. 
+For now, SignalR service can only be scaled to unit counts of 1, 2, 5, 10, 20, 50, 100.
 
 ```azurecli-interactive
 #!/bin/bash
